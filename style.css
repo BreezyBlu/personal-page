@@ -7,6 +7,10 @@ body{
     overflow-x: hidden;
 }
 
+a{
+    text-decoration: none;
+}
+
 ul{
     list-style: none;
     margin: 0;
@@ -15,7 +19,7 @@ ul{
     gap: 16px;
 }
 
-ul, p, .footer{
+ul, p, a, .footer{
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 100;
@@ -28,7 +32,7 @@ ul, p, .footer{
 /* First Quarter */
 .first-quarter{
     background-color: #1F2937;
-    padding: 0 120px;
+    padding: 0 130px;
 }
 
 .header1{
@@ -115,6 +119,7 @@ ul, p, .footer{
     flex-direction: column;
     padding: 80px 200px;
     justify-content: center;
+    min-width: 40vh;
 }
 
 .quote-text{
@@ -129,6 +134,44 @@ ul, p, .footer{
     align-self: flex-end;
     font-weight: 700;
     margin-top: 8px;
+}
+
+/* Fourth Quarter*/
+.fourth-quarter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+.action-box{
+    background-color: #3882F6;
+    padding: 30px 80px;
+    border-radius: 7px;
+    display: flex;
+    gap: 100px;
+    min-width: 80vh;
+    color: #F9FAF8;
+}
+
+.action-header{
+    font-weight: 650;
+}
+
+.action-text{
+    font-weight: 100;
+}
+
+.button-two{
+    background-color: #3882F6;
+    border: 2px #F9FAF8 solid;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 30px;
+    color: white;
+    font-weight: 620;
 }
 
 /* Footer */
